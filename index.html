@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>First Aid Information System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h2> First Aid System</h2>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">First Aid Guide</a>
+        <a href="#contact">Contact</a>
+        <a href="#emergency">Emergency</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Welcome to First Aid Information System</h1>
+    <p>Learn basic first aid skills and know what to do during emergencies.</p>
+    <a href="#services" class="btn">Explore First Aid Guide</a>
+</section>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>Our system provides useful information about basic first aid
+    procedures and emergency situations.</p>
+</section>
+
+<section id="services">
+    <h2>First Aid Information</h2>
+
+
+    <div class="card">
+        <h3> Burns</h3>
+        <p>Learn how to treat burns.</p>
+        <button onclick="showGuide('burns')">Read more</button>
+    </div>
+
+    <div class="card">
+        <h3> Choking</h3>
+        <p>Learn what to do when someone is choking.</p>
+        <button onclick="showGuide('choking')">Read more</button>
+    </div>
+
+    <div class="card">
+        <h3> Fractures</h3>
+        <p>Learn how to handle suspected fractures.</p>
+        <button ondblclick="showGuide('fractures')">Read more</button>
+    </div>
+    <div id="guide"></div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>08036841881.</p>
+</section>
+<section id="emergency">
+    <h2>emergency Contact</h2>
+    <div class="card">
+        <h3> Ambulance</h3>
+        <p>Nigeria emergency Number: 112</p>
+        
+    </div>
+    <div class="card">
+        <h3> Emergency Advice</h3>
+        <P>for serious injuries, seek immediate professional medical assistance.</P>
+
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 First Aid Information System</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
